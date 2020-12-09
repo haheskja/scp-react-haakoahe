@@ -1,6 +1,6 @@
 {
   "name": "scp-react-haakoahe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A boilerplate for react libraries",
   "main": "build/cjs/lib.js",
   "module": "build/es/lib.js",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:haheskja/scp-react-haakoahe.git"
+    "url": "https://github.com/haheskja/scp-react-haakoahe.git"
   },
   "author": "",
   "license": "ISC",
