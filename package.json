@@ -1,0 +1,50 @@
+{
+  "name": "scp-react-haakoahe",
+  "version": "1.0.0",
+  "description": "A boilerplate for react libraries",
+  "main": "build/cjs/lib.js",
+  "module": "build/es/lib.js",
+  "scripts": {
+    "build": "d2-app-scripts build"
+  },
+  "keywords": [
+    "react",
+    "dhis2",
+    "dhis2-component-search"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:haheskja/scp-react-haakoahe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dhis2/cli-app-scripts": "^5.5.0",
+    "react": "^17.0.1"
+  },
+  "dhis2ComponentSearch": {
+    "language": "react",
+    "components": [
+      {
+        "name": "OrgTree",
+        "export": "OrgTree",
+        "description": "Very complex and useful",
+        "dhis2Version": [
+          "19.0.0"
+        ]
+      },
+      {
+        "name": "Sidebar with navigation",
+        "export": "Sidebar",
+        "description": "Use this when you require a sidebar with many navigation options.",
+        "dhis2Version": [
+          "19.0.0"
+        ]
+      }
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-plugin-react": "^7.21.5"
+  }
+}
